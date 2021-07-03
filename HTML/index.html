@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset= "UTF-8">
+     <title>Home</title>
+     <link rel="stylesheet" href="style.css">
+
+<body>
+</div>
+</div>
+
+<header>
+<a href="index.html">
+<center><img src="ls.png" width="130px"></center>
+</a>
+</header>
+<nav>
+<table cellspacing="15" cellpadding="15">
+<tr>
+<nav>
+<table cellpadding="10" width="30" align="center" cellspacing="10">
+<tr align="center">
+<tr>
+    <ul>
+    <td><a href="index.html">Home</a></td>
+    <td><a href="about.html">About</a></td>
+    <td><a href="top.html">Top</a></td>
+    <td><a href="bottom.html">Bottom</a></td>
+    <td><a href="shoes.html">Shoes</a></td>
+    <td><a href="hijab.html">Hijab</a></td>
+    <td><a href="accessories.html">Accessories</a></td>
+    <td><a href="contact us.html">Contact</a></td>
+</tr>
+</tr>
+
+ 
+  
+</div>
+
+ 
+  
+</div>
+</tr>
+</nav>
+</table>
+<body bgcolor="F0EBEA">
+<font face="courier">
+<center><p>FEATURED</p></center>
+<center><div class="w3-content wfon3-section" style="max-width:450px">
+  <img class="mySlides" src="knitwear/knitwear3.png" style="width:90%">
+  <img class="mySlides" src="knitwear/knitwear11.png" style="width:90%">
+  <img class="mySlides" src="blouse/blouse11.png" style="width:90%">
+  <img class="mySlides" src="kasut/heels4.png" style="width:90%">
+  <img class="mySlides" src="kasut/heels1.png" style="width:90%">
+  <img class="mySlides" src="kasut/wedges6.png" style="width:90%">
+  <img class="mySlides" src="kasut/wedges7.png" style="width:90%">
+  <img class="mySlides" src="shawl/printed2.png" 
+style="width:90%">
+  <img class="mySlides" src="shawl/printed5.png" style="width:90%">
+  <img class="mySlides" src="pants/pants4.png" style="width:90%">
+  <img class="mySlides" src="pants/pants1.png" style="width:90%"></center>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 6 seconds
+}
+</script>
+</head>
+
+</body>
+</html>
